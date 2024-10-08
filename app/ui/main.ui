@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2080</width>
+    <height>1100</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1900</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Students Cosmos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imgs/660921-84.png</normaloff>imgs/660921-84.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#033E3E;
+color: rgb(255, 255, 255);
+selection-color: rgb(255, 0, 127);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>60</y>
+      <width>731</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>28</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>STUDENT'S COSMOS</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>841</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>About</string>
+    </property>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>801</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Welcome to students cosmos, a software developed by &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic;&quot;&gt;ONESMUS BETT COMPANIES. &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt; This software is ment to help schools with their huge chunk of data and help the manage them. This software has most of the features schools require and are user friendly. Hope you like the software. Send Feedback at &lt;/span&gt;&lt;a href=&quot;http://onesmusbett.com&quot;&gt;&lt;span style=&quot; font-size:11pt; font-style:italic; text-decoration: underline; color:#0000ff;&quot;&gt;onesmus bett webpage&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>801</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>On going events</string>
+     </property>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>14</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Title:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Due date:</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>721</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;There is an event that will occur at this date&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>200</y>
+      <width>711</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imgs/LOGO.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>770</y>
+      <width>311</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);</string>
+    </property>
+    <property name="text">
+     <string>NEW DATA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>770</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>DASHBOARD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>770</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>EVENTS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>770</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 85, 255);</string>
+    </property>
+    <property name="text">
+     <string>FEES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>1660</x>
+      <y>770</y>
+      <width>241</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>LIBRARY</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2080</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuNew">
+     <property name="title">
+      <string>New</string>
+     </property>
+     <addaction name="actionStudent"/>
+     <addaction name="actionTeacher"/>
+     <addaction name="actionClassroom"/>
+     <addaction name="actionSubjects"/>
+    </widget>
+    <widget class="QMenu" name="menuEdit">
+     <property name="title">
+      <string>Edit</string>
+     </property>
+     <addaction name="actionStudent_2"/>
+     <addaction name="actionTeacher_2"/>
+     <addaction name="actionClassrooms"/>
+     <addaction name="actionSubjects_2"/>
+    </widget>
+    <widget class="QMenu" name="menuSettings">
+     <property name="title">
+      <string>Settings</string>
+     </property>
+     <addaction name="actionPreferences"/>
+    </widget>
+    <addaction name="menuNew"/>
+    <addaction name="menuEdit"/>
+    <addaction name="menuSettings"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuStudents">
+    <property name="title">
+     <string>Students</string>
+    </property>
+    <addaction name="actionDatabase"/>
+    <addaction name="actionClasses"/>
+    <addaction name="actionClass_Teachers"/>
+   </widget>
+   <widget class="QMenu" name="menuTeachers">
+    <property name="title">
+     <string>Teachers</string>
+    </property>
+    <addaction name="actionData"/>
+    <addaction name="actionClass_Teacher"/>
+    <addaction name="actionSubject_Teachers"/>
+   </widget>
+   <widget class="QMenu" name="menuFees">
+    <property name="title">
+     <string>Fees</string>
+    </property>
+    <addaction name="actionCheck_Database"/>
+    <addaction name="actionRecord_Payments"/>
+    <addaction name="actionPrint_receipts"/>
+   </widget>
+   <widget class="QMenu" name="menuLibrary">
+    <property name="title">
+     <string>Library</string>
+    </property>
+    <addaction name="actionLend_Book"/>
+    <addaction name="actionClear_book"/>
+    <addaction name="actionCheck_Books"/>
+    <addaction name="actionRegister_Book"/>
+   </widget>
+   <widget class="QMenu" name="menuLaboratory">
+    <property name="title">
+     <string>Laboratory</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuKCSE">
+    <property name="title">
+     <string>KCSE</string>
+    </property>
+    <addaction name="actionRegister_students"/>
+    <addaction name="actionIndex_numbers"/>
+    <addaction name="actionContacts"/>
+   </widget>
+   <widget class="QMenu" name="menuParents">
+    <property name="title">
+     <string>Parents</string>
+    </property>
+    <addaction name="actionNotification"/>
+    <addaction name="actionContacts_2"/>
+    <addaction name="actionClass"/>
+    <addaction name="actionSend_sms"/>
+    <addaction name="actionSend_email"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuStudents"/>
+   <addaction name="menuTeachers"/>
+   <addaction name="menuFees"/>
+   <addaction name="menuLibrary"/>
+   <addaction name="menuLaboratory"/>
+   <addaction name="menuKCSE"/>
+   <addaction name="menuParents"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionStudent">
+   <property name="text">
+    <string>Student</string>
+   </property>
+  </action>
+  <action name="actionTeacher">
+   <property name="text">
+    <string>Teacher</string>
+   </property>
+  </action>
+  <action name="actionClassroom">
+   <property name="text">
+    <string>Classroom</string>
+   </property>
+  </action>
+  <action name="actionSubjects">
+   <property name="text">
+    <string>Subjects</string>
+   </property>
+  </action>
+  <action name="actionStudent_2">
+   <property name="text">
+    <string>Student</string>
+   </property>
+  </action>
+  <action name="actionTeacher_2">
+   <property name="text">
+    <string>Teacher</string>
+   </property>
+  </action>
+  <action name="actionClassrooms">
+   <property name="text">
+    <string>Classrooms</string>
+   </property>
+  </action>
+  <action name="actionSubjects_2">
+   <property name="text">
+    <string>Subjects</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Preferences</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionDatabase">
+   <property name="text">
+    <string>Database</string>
+   </property>
+  </action>
+  <action name="actionClasses">
+   <property name="text">
+    <string>Classes</string>
+   </property>
+  </action>
+  <action name="actionClass_Teachers">
+   <property name="text">
+    <string>Class Teachers</string>
+   </property>
+  </action>
+  <action name="actionData">
+   <property name="text">
+    <string>Data</string>
+   </property>
+  </action>
+  <action name="actionClass_Teacher">
+   <property name="text">
+    <string>Class Teacher</string>
+   </property>
+  </action>
+  <action name="actionSubject_Teachers">
+   <property name="text">
+    <string>Subject Teachers</string>
+   </property>
+  </action>
+  <action name="actionCheck_Database">
+   <property name="text">
+    <string>Check Database</string>
+   </property>
+  </action>
+  <action name="actionRecord_Payments">
+   <property name="text">
+    <string>Record Payments</string>
+   </property>
+  </action>
+  <action name="actionPrint_receipts">
+   <property name="text">
+    <string>Print receipts</string>
+   </property>
+  </action>
+  <action name="actionRegister_students">
+   <property name="text">
+    <string>Register students</string>
+   </property>
+  </action>
+  <action name="actionIndex_numbers">
+   <property name="text">
+    <string>Index numbers</string>
+   </property>
+  </action>
+  <action name="actionContacts">
+   <property name="text">
+    <string>Contacts</string>
+   </property>
+  </action>
+  <action name="actionNotification">
+   <property name="text">
+    <string>Notification</string>
+   </property>
+  </action>
+  <action name="actionContacts_2">
+   <property name="text">
+    <string>Contacts</string>
+   </property>
+  </action>
+  <action name="actionClass">
+   <property name="text">
+    <string>Class</string>
+   </property>
+  </action>
+  <action name="actionSend_sms">
+   <property name="text">
+    <string>Send sms</string>
+   </property>
+  </action>
+  <action name="actionSend_email">
+   <property name="text">
+    <string>Send email</string>
+   </property>
+  </action>
+  <action name="actionLend_Book">
+   <property name="text">
+    <string>Lend Book</string>
+   </property>
+  </action>
+  <action name="actionClear_book">
+   <property name="text">
+    <string>Clear book</string>
+   </property>
+  </action>
+  <action name="actionCheck_Books">
+   <property name="text">
+    <string>Check Books</string>
+   </property>
+  </action>
+  <action name="actionRegister_Book">
+   <property name="text">
+    <string>Register Book</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
